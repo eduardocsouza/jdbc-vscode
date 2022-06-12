@@ -61,6 +61,7 @@ public class Program {
 
             int line = st.executeUpdate();
             System.out.println("Linhas afetadas: " + line);
+            System.out.println("Sucesso!");
         }
         catch(SQLException e){
             e.printStackTrace();
